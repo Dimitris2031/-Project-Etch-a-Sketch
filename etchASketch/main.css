@@ -1,0 +1,72 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 600px;
+    box-shadow: 0 0 5px 1px blue;
+
+}
+
+body{
+    background-color:#f6f6f6;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 400px;
+}
+
+.settings{
+    height: 600px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bar,.colorSelect,.rainbow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.main-container div.color{
+    background-color: yellow;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.board{
+    position: absolute;
+    left: 100;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+    border-radius: 200px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.colorChange{
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    border-radius: 2000px;
+    background-color: black;
+}

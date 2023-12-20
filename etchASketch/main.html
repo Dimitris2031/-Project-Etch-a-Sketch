@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class = "main-container">
+
+            </div>
+        </div>
+        <div class="settings">
+            <div class="bar">
+                <p class="grid-range">16 X 16</p>
+                <input oninput="updateGrid()" id="range" type="range" min="1" max="64" value="16">
+            </div>
+            <div class="colorSelect">
+                <input class="input-color" type="color" value="#000000" id="input-color">
+                <p>Choose Color</p>
+            </div>
+            <div class="rainbow">
+                <button id="rainbow-btn">Rainbow Colors</button>
+            </div>
+        </div>
+        <div class="board">
+            <p id="modeSelected">Color Mode</p>
+            <div id="colorChange" class="colorChange"></div>
+        </div>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/randomcolor@0.6.2/randomColor.min.js"></script>
+    <script src="main.js"></script>
+</html>
